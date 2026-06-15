@@ -1,0 +1,5 @@
+.gradle/
+build/
+src/linuxX64Main/kotlin/generated/
+.kotlin/
+*.iml
