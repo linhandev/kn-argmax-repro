@@ -16,5 +16,8 @@ kotlin {
                 entryPoint = "main"
             }
         }
+        compilerOptions {
+            freeCompilerArgs.add("-Xverbose-phases=ObjectFiles")
+        }
     }
 }
